@@ -47,7 +47,7 @@ public class Butelka {
         else
             System.out.println("Za mało wody do przelania");
     }
-    void przelejIleMoszna(Butelka gdzie){
+    void przelejIleMożna(Butelka gdzie){
 
         int ileWlezie=0;
 
@@ -108,7 +108,7 @@ public class Butelka {
         System.out.println(butelka[8].getZawartosc());
         System.out.println(butelka[9].getZawartosc());
         System.out.println(" ");
-        butelka[8].przelejIleMoszna(butelka[9]);
+        butelka[8].przelejIleMożna(butelka[9]);
         System.out.println(butelka[8].getZawartosc());
         System.out.println(butelka[9].getZawartosc());
 
